@@ -1,0 +1,51 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>monokai</title>
+
+        <link rel="stylesheet" href="/styles/terminal.css">
+
+        <script src="/src/main.js"></script>
+    </head>
+    <body onload="init();" class="terminal">
+
+        <div class="container">
+        <div class="terminal-nav">
+            <header class="terminal-logo">
+            <div class="logo terminal-prompt"><a href="https://lunacy.monster" class="no-style">monokai</a></div>
+            </header>
+            <nav class="terminal-menu">
+            <ul vocab="https://schema.org/" typeof="BreadcrumbList">
+                <li><a href="https://terminalcss.xyz" style="color: #802fbc;"><span style="color: #fff;">></span> credits</a></li>
+                <li style="height: 28px;"><span></span></li>
+            </ul>
+            </nav>
+        </div>
+        </div>
+
+        <div class="container">
+            <div class="btn-group">
+                <button class="btn btn-default btn-ghost"><span style="color: #fff; margin-right: 3px;">></span><span style="color: #802fbc;">save</span></button>
+                <button class="btn btn-default btn-ghost"><span style="color: #fff; margin-right: 3px;">></span><span style="color: #802fbc;">save to file</span></button>
+                <button class="btn btn-default btn-ghost"><span style="color: #fff; margin-right: 3px;">></span><span style="color: #802fbc;">import</span></button>
+            </div>
+            
+            <textarea id="text" style="height: 1em;" data-sc="" placeholder=">> write here" rows="1"></textarea>
+
+            <div style="margin-top: 15px;" class="terminal-card">
+                <header>
+                    Antoine de Saint-Exupery
+                </header>
+                <div>
+                    <i>
+                        “Perfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away.”
+                    </i>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
