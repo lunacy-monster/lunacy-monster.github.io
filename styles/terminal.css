@@ -494,7 +494,7 @@
     overflow: hidden;
     padding: 0;
     outline: none;
-    height: 1em;
+    height: 1rem;
   }
   input::-webkit-input-placeholder,
   textarea::-webkit-input-placeholder {
