@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "dotenv": "^16.0.1",
-    "pastebin-api": "^5.1.3"
-  }
-}
