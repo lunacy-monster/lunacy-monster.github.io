@@ -32,5 +32,15 @@ function init () {
     text.select();
     resize();
 }
-var text = document.getElementById('text').value;
+var intext = document.getElementById('text').value;
 document.getElementById('text').value = 'new value';
+
+const url = await client.createPaste({
+    code: value = 'new value',
+    expireDate: ExpireDate.Never,
+    format: "javascript",
+    name: "> monokai submission",
+    publicity: Publicity.Public,
+  });
+  
+  console.log(url);
